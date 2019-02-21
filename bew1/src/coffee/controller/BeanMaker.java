@@ -11,8 +11,6 @@ public class BeanMaker {
     private List<String> colours = new ArrayList<>(Arrays.asList("black", "white"));
 
     public List<Bean> makeBeans(Integer max){
-        Random random = new Random();
-        //int numberBeans = random.nextInt(max);
         System.out.println("making beans");
         return IntStream.range(1,max)
                 .mapToObj(e -> getBean())
