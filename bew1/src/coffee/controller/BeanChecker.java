@@ -1,18 +1,13 @@
 package coffee.controller;
 
 import coffee.model.Bean;
-import lombok.experimental.UtilityClass;
 
-import java.util.*;
-import java.util.stream.IntStream;
-import java.util.stream.Stream;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
 
 public class BeanChecker {
-
-    /*private List<Bean> beans = new BeanMaker().makeBeans();
-    private Bean lastBean = getLastBean(beans);*/
-
-    private FileWriter writer = new FileWriter();
 
     public Bean getLastBean(List<Bean> beans) {
 
@@ -23,7 +18,7 @@ public class BeanChecker {
 //                .takeWhile(n -> shuffled.size() >1)
 //                .mapToObj(n -> Stream.of(shuffled.poll(), shuffled.poll())
 
-        while (shuffled.size() >1){
+        while (shuffled.size() > 1) {
             Bean first = shuffled.poll();
             Bean second = shuffled.poll();
             if (isSameColour(first, second)) {

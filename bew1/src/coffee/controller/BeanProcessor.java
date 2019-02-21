@@ -4,8 +4,6 @@ import coffee.model.Bean;
 
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
-import java.util.Arrays;
-import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -14,7 +12,7 @@ import java.util.stream.IntStream;
 import static java.util.stream.Collectors.counting;
 import static java.util.stream.Collectors.groupingBy;
 
-public class BeanStatisticsGatherer {
+public class BeanProcessor {
 
     public void gatherStatistics(Integer tries, Integer numberBeans) {
         IntStream.range(0,tries)

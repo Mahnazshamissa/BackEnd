@@ -1,14 +1,17 @@
-package coffee;
+package coffee.view;
 
 import coffee.controller.BeanStatisticsGatherer;
+
+import java.util.List;
 
 public class CoffeeApp {
 
     public static void main(String[] args) {
 
         BeanStatisticsGatherer beanStatisticsGatherer = new BeanStatisticsGatherer();
-        beanStatisticsGatherer.gatherStatistics(10001);
-
-        //the outcomes are suspiciously close to 50 percent
+        List<String> statistics = beanStatisticsGatherer.getStatistics(100, 50);
+        for (String statistic : statistics) {
+            System.out.println(statistic);
+        }
     }
 }
