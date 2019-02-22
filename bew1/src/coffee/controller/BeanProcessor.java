@@ -62,8 +62,6 @@ public class BeanProcessor {
 
     private void saveResult(String string) {
         FileAppender fileAppender = new FileAppender();
-//        TODO WHY RELATIVE PATH DOES NOT WORK?
-        String path = "/home/paulius/IdeaProjects/backend/week1/BackEnd/bew1/src/coffee/data/initialStatistics.csv";
         fileAppender.append(string, "experiment/statistics.csv");
     }
 }

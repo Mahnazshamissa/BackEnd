@@ -79,7 +79,7 @@ public class BeanStatisticsGatherer {
     }
 
     private List<String> readInfo() {
-        return new FileReader().getLines("coffee/data/initialStatistics.csv");
+        return new FileReader().getLines("experiment/statistics.csv");
     }
 
     private List<Entry> getEntries(List<String> lines) {

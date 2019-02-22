@@ -1,0 +1,14 @@
+method should receive as few arguments as possible ( so maybe we should have "Bean experiment input" class
+that will get the number of experiments to run and the can size)
+--
+Change the name of the method in Bean Processor to something like .writeStatistics
+--
+when making beans, to make it clearer, we could set out to generate infinite and limit by max.
+--
+BeanProcessor should return Experiment(or Entry)
+--
+When giving items to the queue we should use .offer rather than .add
+--
+IDENTIFY RESPONSIBILITIES!!!!
+--
+Think of what steps needs to be done to solve the problem. Those will be your basic classes.
