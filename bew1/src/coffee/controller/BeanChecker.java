@@ -32,11 +32,12 @@ public class BeanChecker {
     }
 
     private Queue<Bean> shuffle(List<Bean> beans) {
+//        TODO which is better?
 //        Collections.shuffle(beans);
 //        return new LinkedList<>(beans);  //our way
-        List<Bean> shuffled = new LinkedList<>(beans);
+        LinkedList<Bean> shuffled = new LinkedList<>(beans);
         Collections.shuffle(shuffled);
-        return (Queue<Bean>) shuffled;   //L's way
+        return shuffled;   //L's way
     }
 
     private boolean isSameColour(Bean first, Bean second) {

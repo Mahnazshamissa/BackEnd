@@ -2,13 +2,19 @@ package coffee.controller;
 
 import coffee.model.Entry;
 
-import java.util.ArrayList;
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class BeanStatisticsGatherer {
+
+    private List<String> lines = readInfo();
+    private List<Entry> entries = getEntries(lines);
+    private NumberFormat formatter = new DecimalFormat("0.00");
 
     public List<String> getStatistics(Integer tries, Integer numberBeans) {
         new BeanProcessor().gatherStatistics(tries, numberBeans);
@@ -19,28 +25,24 @@ public class BeanStatisticsGatherer {
         String timesLastBlack = "Number of times where the last bean was black:" + getTimesLast("black", entries);
         String ratio = getRatio(entries);
         String lastBeanRatio = getLastBeanRatio(entries);
-        List<String> answers = new ArrayList<>();
-        answers.add(numTries);
-        answers.add(numWhite);
-        answers.add(numBlack);
-        answers.add(timesLastWhite);
-        answers.add(timesLastBlack);
-        answers.add(ratio);
-        answers.add(lastBeanRatio);
-        return answers;
+        return Arrays.asList(
+                            numTries,
+                            numWhite,
+                            numBlack,
+                            timesLastWhite,
+                            timesLastBlack,
+                            ratio,
+                            lastBeanRatio);
     }
 
-    private List<String> lines = readInfo();
-    private List<Entry> entries = getEntries();
-
-    Integer getTotalWhite(List<Entry> entries) {
+    private long getTotalWhite(List<Entry> entries) {
         Optional<Integer> reduce = entries.stream()
                 .map(Entry::getNumWhite)
                 .reduce(Integer::sum);
         return reduce.orElse(0);
     }
 
-    Integer getTotalBlack(List<Entry> entries) {
+    private long getTotalBlack(List<Entry> entries) {
         Optional<Integer> reduce = entries.stream()
                 .map(Entry::getNumBlack)
                 .reduce(Integer::sum);
@@ -55,28 +57,32 @@ public class BeanStatisticsGatherer {
     }
 
     private String getRatio(List<Entry> entries) {
-        Integer totalWhite = getTotalWhite(entries);
-        Integer totalBlack = getTotalBlack(entries);
-        Integer totalBeans = totalWhite + totalBlack;
-        double ratioWhite = totalWhite*100 / totalBeans;
-        double ratioBlack = totalBlack *100/ totalBeans;
-        return "Total bean ratio: " + ratioWhite + " % white " + ratioBlack + "% black";
+        double totalWhite = getTotalWhite(entries);
+        double totalBlack = getTotalBlack(entries);
+        double totalBeans = totalWhite + totalBlack;
+        double ratioWhite = totalWhite * 100 / totalBeans;
+        double ratioBlack = totalBlack * 100 / totalBeans;
+        return "Total bean ratio: " + format(ratioWhite) + " % white " + format(ratioBlack)+ "% black";
     }
 
     private String getLastBeanRatio(List<Entry> entries) {
-        Integer totalLastWhite = getTimesLast("white", entries);
-        Integer totalLastBlack = getTimesLast("black", entries);
+        double totalLastWhite = getTimesLast("white", entries);
+        double totalLastBlack = getTimesLast("black", entries);
         int size = entries.size();
-        double ratioLastWhite = totalLastWhite *100 / size;
-        double ratioLastBlack = totalLastBlack *100/ size;
-        return "Total last bean ratio: " + ratioLastWhite + " % white " + ratioLastBlack + "% black";
+        double ratioLastWhite = totalLastWhite * 100 / size;
+        double ratioLastBlack = totalLastBlack * 100 / size;
+        return "Total last bean ratio: " + format(ratioLastWhite) + " % white " + format(ratioLastBlack) + "% black";
+    }
+
+    private String format(double number) {
+        return formatter.format(number);
     }
 
     private List<String> readInfo() {
         return new FileReader().getLines("coffee/data/initialStatistics.csv");
     }
 
-    private List<Entry> getEntries() {
+    private List<Entry> getEntries(List<String> lines) {
         return lines.stream()
                 .skip(1)
                 .map(e -> e.split(","))

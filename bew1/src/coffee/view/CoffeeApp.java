@@ -10,8 +10,9 @@ public class CoffeeApp {
 
         BeanStatisticsGatherer beanStatisticsGatherer = new BeanStatisticsGatherer();
         List<String> statistics = beanStatisticsGatherer.getStatistics(100, 50);
-        for (String statistic : statistics) {
-            System.out.println(statistic);
-        }
+        statistics.forEach(System.out::println);
+//        for (String statistic : statistics) {
+//            System.out.println(statistic);
+//        }
     }
 }

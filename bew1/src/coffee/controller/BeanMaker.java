@@ -12,7 +12,8 @@ public class BeanMaker {
 
     public List<Bean> makeBeans(Integer max){
         System.out.println("making beans");
-        return IntStream.range(1,max)
+        // could be changed to IntStream.generate(()->0).limit(max)
+        return IntStream.range(0,max)
                 .mapToObj(e -> getBean())
                 .peek(System.out::println)
                 .collect(Collectors.toList());
