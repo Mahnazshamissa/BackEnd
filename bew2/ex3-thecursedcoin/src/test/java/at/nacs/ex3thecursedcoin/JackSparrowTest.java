@@ -14,7 +14,7 @@ class JackSparrowTest {
 
     @Test
     void findCursedCoin() {
-        String message = jackSparrow.findCursedCoin();
+        String message = jackSparrow.findCoin();
         assertEquals("I found the CursedCoin!", message);
     }
 }
