@@ -4,7 +4,9 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import static junit.framework.TestCase.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
+import static org.junit.jupiter.api.Assertions.assertFalse;
 
 @SpringBootTest
 class EnglishGentlemanTest {
@@ -23,14 +25,14 @@ class EnglishGentlemanTest {
         assertFalse(cigar.isLit());
         assertDoesNotThrow(() -> englishGentleman.smoke(cigar));
         assertTrue(cigar.isLit());
-        assertTrue(englishGentleman.isHasSmoked());
+        assertTrue(englishGentleman.isSmoked());
     }
 
     @Test
     void read() {
         englishGentleman.read(newspaper);
 
-        assertTrue(englishGentleman.isHasRead());
+        assertTrue(englishGentleman.isRead());
     }
 
     @Test

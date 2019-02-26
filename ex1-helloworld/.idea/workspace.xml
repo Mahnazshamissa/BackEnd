@@ -2,19 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c8f616d-99ae-46f9-9ce4-08546f25eea4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../bew2/ex2-amazinghelloworld/src/main/java/at/nacs/ex2amazinghelloworld/AmazingHelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bew2/ex2-amazinghelloworld/src/main/java/at/nacs/ex2amazinghelloworld/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bew2/ex2-amazinghelloworld/src/main/java/at/nacs/ex2amazinghelloworld/World.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bew2/ex3-thecursedcoin/src/main/java/at/nacs/ex3thecursedcoin/CursedCoin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bew2/ex3-thecursedcoin/src/main/java/at/nacs/ex3thecursedcoin/JackSparrow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bew2/ex3-thecursedcoin/src/main/java/at/nacs/ex3thecursedcoin/LegendaryCompass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bew2/ex3-thecursedcoin/src/test/java/at/nacs/ex3thecursedcoin/JackSparrowTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bew2/ex3-thecursedcoin/src/test/java/at/nacs/ex3thecursedcoin/JackSparrowTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/Cigar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/CigarWasNotLitException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/EnglishGentleman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/Lighter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/Monocle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/Newspaper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/test/java/at/nacs/ex4theenglishgentleman/CigarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/test/java/at/nacs/ex4theenglishgentleman/CigarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/test/java/at/nacs/ex4theenglishgentleman/EnglishGentlemanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/test/java/at/nacs/ex4theenglishgentleman/EnglishGentlemanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../bew2/ex1-helloworld/target/" />
     <ignored path="$PROJECT_DIR$/../bew2/ex2-amazinghelloworld/target/" />
     <ignored path="$PROJECT_DIR$/../bew2/ex3-thecursedcoin/target/" />
+    <ignored path="$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/target/" />
+    <ignored path="$PROJECT_DIR$/../bew2/ex5-thecalculator/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,38 +38,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="36" />
+          <entry key="java" value="56" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="36" />
+          <entry key="JAVA" value="56" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="146" />
+          <entry key="java" value="678" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="146" />
+          <entry key="JAVA" value="678" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../bew2/ex3-thecursedcoin/src/test/java/at/nacs/ex3thecursedcoin/JackSparrowTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -83,8 +80,16 @@
         <option value="$PROJECT_DIR$/../bew2/ex2-amazinghelloworld/src/main/java/at/nacs/ex2amazinghelloworld/World.java" />
         <option value="$PROJECT_DIR$/../bew2/ex3-thecursedcoin/src/main/java/at/nacs/ex3thecursedcoin/CursedCoin.java" />
         <option value="$PROJECT_DIR$/../bew2/ex3-thecursedcoin/src/main/java/at/nacs/ex3thecursedcoin/LegendaryCompass.java" />
-        <option value="$PROJECT_DIR$/../bew2/ex3-thecursedcoin/src/main/java/at/nacs/ex3thecursedcoin/JackSparrow.java" />
         <option value="$PROJECT_DIR$/../bew2/ex3-thecursedcoin/src/test/java/at/nacs/ex3thecursedcoin/JackSparrowTest.java" />
+        <option value="$PROJECT_DIR$/../bew2/ex3-thecursedcoin/src/main/java/at/nacs/ex3thecursedcoin/JackSparrow.java" />
+        <option value="$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/test/java/at/nacs/ex4theenglishgentleman/CigarTest.java" />
+        <option value="$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/CigarWasNotLitException.java" />
+        <option value="$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/test/java/at/nacs/ex4theenglishgentleman/EnglishGentlemanTest.java" />
+        <option value="$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/Lighter.java" />
+        <option value="$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/EnglishGentleman.java" />
+        <option value="$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/Newspaper.java" />
+        <option value="$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/Monocle.java" />
+        <option value="$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/Cigar.java" />
       </list>
     </option>
   </component>
@@ -146,54 +151,54 @@
           <expand>
             <path>
               <item name="ex1-helloworld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ex3-thecursedcoin" type="462c0819:PsiDirectoryNode" />
+              <item name="ex4-theenglishgentleman" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ex1-helloworld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ex3-thecursedcoin" type="462c0819:PsiDirectoryNode" />
+              <item name="ex4-theenglishgentleman" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ex1-helloworld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ex3-thecursedcoin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ex1-helloworld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ex3-thecursedcoin" type="462c0819:PsiDirectoryNode" />
+              <item name="ex4-theenglishgentleman" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ex1-helloworld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ex3-thecursedcoin" type="462c0819:PsiDirectoryNode" />
+              <item name="ex4-theenglishgentleman" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ex3thecursedcoin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ex1-helloworld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ex3-thecursedcoin" type="462c0819:PsiDirectoryNode" />
+              <item name="ex4-theenglishgentleman" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ex4theenglishgentleman" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ex1-helloworld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ex4-theenglishgentleman" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ex1-helloworld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ex3-thecursedcoin" type="462c0819:PsiDirectoryNode" />
+              <item name="ex4-theenglishgentleman" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ex1-helloworld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ex3-thecursedcoin" type="462c0819:PsiDirectoryNode" />
+              <item name="ex4-theenglishgentleman" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ex3thecursedcoin" type="462c0819:PsiDirectoryNode" />
+              <item name="ex4theenglishgentleman" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -204,19 +209,21 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551109628655" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bew2/ex3-thecursedcoin" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551186855061" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bew2/ex5-thecalculator" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="at.nacs.ex2amazinghelloworld" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="at.nacs.ex4theenglishgentleman" />
       <recent name="at.nacs.ex3thecursedcoin" />
       <recent name="at.nacs.ex2amazinghelloworld" />
     </key>
@@ -233,7 +240,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JackSparrowTest">
+  <component name="RunManager" selected="JUnit.EnglishGentlemanTest">
     <configuration name="AmazingHelloWorldTest.say" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ex2-amazinghelloworld" />
       <extension name="coverage">
@@ -246,6 +253,34 @@
       <option name="MAIN_CLASS_NAME" value="at.nacs.ex2amazinghelloworld.AmazingHelloWorldTest" />
       <option name="METHOD_NAME" value="say" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CigarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ex4-theenglishgentleman" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.nacs.ex4theenglishgentleman.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.nacs.ex4theenglishgentleman" />
+      <option name="MAIN_CLASS_NAME" value="at.nacs.ex4theenglishgentleman.CigarTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnglishGentlemanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ex4-theenglishgentleman" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.nacs.ex4theenglishgentleman.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.nacs.ex4theenglishgentleman" />
+      <option name="MAIN_CLASS_NAME" value="at.nacs.ex4theenglishgentleman.EnglishGentlemanTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -294,6 +329,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ex4TheenglishgentlemanApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ex4-theenglishgentleman" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="at.nacs.ex4theenglishgentleman.Ex4TheenglishgentlemanApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelloworldApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ex1-helloworld" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="at.nacs.helloworld.HelloworldApplication" />
@@ -308,9 +350,14 @@
       <item itemvalue="JUnit.AmazingHelloWorldTest.say" />
       <item itemvalue="Spring Boot.Ex3ThecursedcoinApplication" />
       <item itemvalue="JUnit.JackSparrowTest" />
+      <item itemvalue="Spring Boot.Ex4TheenglishgentlemanApplication" />
+      <item itemvalue="JUnit.CigarTest" />
+      <item itemvalue="JUnit.EnglishGentlemanTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EnglishGentlemanTest" />
+        <item itemvalue="JUnit.CigarTest" />
         <item itemvalue="JUnit.JackSparrowTest" />
         <item itemvalue="JUnit.AmazingHelloWorldTest.say" />
         <item itemvalue="JUnit.HelloWorldTest.getMessage" />
@@ -327,7 +374,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551093381320</updated>
-      <workItem from="1551093385557" duration="6904000" />
+      <workItem from="1551093385557" duration="18844000" />
     </task>
     <servers />
   </component>
@@ -344,43 +391,60 @@
     <history-entry file="AmazingHelloWorldTest_say - 2019.02.25 at 16h 24m 23s.xml">
       <configuration name="AmazingHelloWorldTest.say" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="JackSparrowTest - 2019.02.25 at 16h 47m 20s.xml">
+      <configuration name="JackSparrowTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JackSparrowTest - 2019.02.25 at 16h 48m 22s.xml">
+      <configuration name="JackSparrowTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CigarTest - 2019.02.26 at 13h 39m 45s.xml">
+      <configuration name="CigarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EnglishGentlemanTest - 2019.02.26 at 14h 05m 00s.xml">
+      <configuration name="EnglishGentlemanTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EnglishGentlemanTest - 2019.02.26 at 14h 05m 58s.xml">
+      <configuration name="EnglishGentlemanTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EnglishGentlemanTest - 2019.02.26 at 14h 14m 22s.xml">
+      <configuration name="EnglishGentlemanTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6904000" />
+    <option name="totallyTimeSpent" value="18844000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="27" width="1233" height="773" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24936816" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3294509" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.7237937" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24936816" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3294509" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.7236422" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -450,33 +514,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../bew2/ex3-thecursedcoin/src/main/java/at/nacs/ex3thecursedcoin/CursedCoin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bew2/ex3-thecursedcoin/src/main/java/at/nacs/ex3thecursedcoin/LegendaryCompass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../bew2/ex3-thecursedcoin/src/main/java/at/nacs/ex3thecursedcoin/JackSparrow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="11" column="72" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
+          <caret line="11" column="68" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -485,6 +530,93 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bew2/ex3-thecursedcoin/src/main/java/at/nacs/ex3thecursedcoin/LegendaryCompass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bew2/ex3-thecursedcoin/src/main/java/at/nacs/ex3thecursedcoin/CursedCoin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/CigarWasNotLitException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/Cigar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/test/java/at/nacs/ex4theenglishgentleman/CigarTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/Newspaper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/Monocle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/Lighter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/EnglishGentleman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/test/java/at/nacs/ex4theenglishgentleman/EnglishGentlemanTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
         </state>
       </provider>
     </entry>

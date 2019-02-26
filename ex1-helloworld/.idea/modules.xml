@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/../bew2/ex1-helloworld/ex1-helloworld.iml" filepath="$PROJECT_DIR$/../bew2/ex1-helloworld/ex1-helloworld.iml" />
       <module fileurl="file://$PROJECT_DIR$/../bew2/ex2-amazinghelloworld/ex2-amazinghelloworld.iml" filepath="$PROJECT_DIR$/../bew2/ex2-amazinghelloworld/ex2-amazinghelloworld.iml" />
       <module fileurl="file://$PROJECT_DIR$/../bew2/ex3-thecursedcoin/ex3-thecursedcoin.iml" filepath="$PROJECT_DIR$/../bew2/ex3-thecursedcoin/ex3-thecursedcoin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/ex4-theenglishgentleman.iml" filepath="$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/ex4-theenglishgentleman.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../bew2/ex5-thecalculator/ex5-thecalculator.iml" filepath="$PROJECT_DIR$/../bew2/ex5-thecalculator/ex5-thecalculator.iml" />
     </modules>
   </component>
 </project>

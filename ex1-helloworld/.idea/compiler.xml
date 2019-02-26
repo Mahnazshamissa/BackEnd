@@ -9,12 +9,16 @@
         <module name="ex1-helloworld" />
         <module name="ex2-amazinghelloworld" />
         <module name="ex3-thecursedcoin" />
+        <module name="ex4-theenglishgentleman" />
+        <module name="ex5-thecalculator" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ex1-helloworld" target="11" />
       <module name="ex2-amazinghelloworld" target="11" />
       <module name="ex3-thecursedcoin" target="11" />
+      <module name="ex4-theenglishgentleman" target="11" />
+      <module name="ex5-thecalculator" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
