@@ -7,6 +7,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
@@ -23,7 +24,8 @@ class CalculatorTest {
             "1, 1, *, 1",
             "1, 1, /, 1",
     })
-    void calculateSucceeds(double expected, double number1, String symbol, double number2) {
+    void calculateSucceeds(double expected, double number1, String symbol, double number2)
+            throws IllegalArgumentException {
         Expression expression = Expression.builder()
                 .number1(number1)
                 .symbol(symbol)

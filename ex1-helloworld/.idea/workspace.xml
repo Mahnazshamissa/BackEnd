@@ -2,18 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c8f616d-99ae-46f9-9ce4-08546f25eea4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/Cigar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/CigarWasNotLitException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/EnglishGentleman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/Lighter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/Monocle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/Newspaper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/test/java/at/nacs/ex4theenglishgentleman/CigarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/test/java/at/nacs/ex4theenglishgentleman/CigarTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/test/java/at/nacs/ex4theenglishgentleman/EnglishGentlemanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/test/java/at/nacs/ex4theenglishgentleman/EnglishGentlemanTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bew2/ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/controller/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bew2/ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/controller/Expressions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bew2/ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/controller/IllegalArgumentException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bew2/ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/controller/operation/Addition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bew2/ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/controller/operation/Division.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bew2/ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/controller/operation/Multiplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bew2/ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/controller/operation/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bew2/ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/controller/operation/Subtraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bew2/ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/model/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bew2/ex5-thecalculator/src/test/java/at/nacs/ex5thecalculator/controller/operation/AdditionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bew2/ex5-thecalculator/src/test/java/at/nacs/ex5thecalculator/controller/operation/SubtractionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bew2/ex5-thecalculator/src/test/java/at/nacs/ex5thecalculator/controller/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bew2/ex5-thecalculator/src/test/java/at/nacs/ex5thecalculator/controller/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bew2/ex5-thecalculator/src/test/java/at/nacs/ex5thecalculator/controller/ExpressionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bew2/ex5-thecalculator/src/test/java/at/nacs/ex5thecalculator/controller/ExpressionsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,32 +41,81 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="56" />
+          <entry key="class" value="1" />
+          <entry key="java" value="85" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="56" />
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="85" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="678" />
+          <entry key="java" value="1080" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="678" />
+          <entry key="JAVA" value="1080" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../bew2/ex5-thecalculator/src/test/java/at/nacs/ex5thecalculator/controller/operation/DivisionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-89">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../bew2/ex5-thecalculator/src/test/java/at/nacs/ex5thecalculator/controller/operation/AdditionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../bew2/ex5-thecalculator/src/test/java/at/nacs/ex5thecalculator/controller/operation/SubtractionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="814">
+              <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../bew2/ex5-thecalculator/src/test/java/at/nacs/ex5thecalculator/controller/operation/MultiplicationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -90,6 +142,26 @@
         <option value="$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/Newspaper.java" />
         <option value="$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/Monocle.java" />
         <option value="$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/Cigar.java" />
+        <option value="$PROJECT_DIR$/../bew2/ex5-thecalculator/src/test/java/at/nacs/ex5thecalculator/controller/Expressions.java" />
+        <option value="$PROJECT_DIR$/../bew2/ex5-thecalculator/src/test/java/at/nacs/ex5thecalculator/controller/Calculator.java" />
+        <option value="$PROJECT_DIR$/../bew2/ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/Expression.java" />
+        <option value="$PROJECT_DIR$/../bew2/ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/Expressions.java" />
+        <option value="$PROJECT_DIR$/../bew2/ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/Operation.java" />
+        <option value="$PROJECT_DIR$/../bew2/ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/Addition.java" />
+        <option value="$PROJECT_DIR$/../bew2/ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/Calculator.java" />
+        <option value="$PROJECT_DIR$/../bew2/ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/controller/operation/Subtraction.java" />
+        <option value="$PROJECT_DIR$/../bew2/ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/controller/operation/Multiplication.java" />
+        <option value="$PROJECT_DIR$/../bew2/ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/controller/IllegalArgumentException.java" />
+        <option value="$PROJECT_DIR$/../bew2/ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/controller/Expression.java" />
+        <option value="$PROJECT_DIR$/../bew2/ex5-thecalculator/src/test/java/at/nacs/ex5thecalculator/controller/ExpressionsTest.java" />
+        <option value="$PROJECT_DIR$/../bew2/ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/controller/operation/Division.java" />
+        <option value="$PROJECT_DIR$/../bew2/ex5-thecalculator/src/test/java/at/nacs/ex5thecalculator/controller/operation/DivisionTest.java" />
+        <option value="$PROJECT_DIR$/../bew2/ex5-thecalculator/src/test/java/at/nacs/ex5thecalculator/controller/operation/MultiplicationTest.java" />
+        <option value="$PROJECT_DIR$/../bew2/ex5-thecalculator/src/test/java/at/nacs/ex5thecalculator/controller/CalculatorTest.java" />
+        <option value="$PROJECT_DIR$/../bew2/ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/controller/Expressions.java" />
+        <option value="$PROJECT_DIR$/../bew2/ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/controller/Calculator.java" />
+        <option value="$PROJECT_DIR$/../bew2/ex5-thecalculator/src/test/java/at/nacs/ex5thecalculator/controller/operation/AdditionTest.java" />
+        <option value="$PROJECT_DIR$/../bew2/ex5-thecalculator/src/test/java/at/nacs/ex5thecalculator/controller/operation/SubtractionTest.java" />
       </list>
     </option>
   </component>
@@ -151,54 +223,101 @@
           <expand>
             <path>
               <item name="ex1-helloworld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ex4-theenglishgentleman" type="462c0819:PsiDirectoryNode" />
+              <item name="ex5-thecalculator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ex1-helloworld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ex4-theenglishgentleman" type="462c0819:PsiDirectoryNode" />
+              <item name="ex5-thecalculator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ex1-helloworld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ex4-theenglishgentleman" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ex1-helloworld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ex4-theenglishgentleman" type="462c0819:PsiDirectoryNode" />
+              <item name="ex5-thecalculator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ex1-helloworld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ex4-theenglishgentleman" type="462c0819:PsiDirectoryNode" />
+              <item name="ex5-thecalculator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ex4theenglishgentleman" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ex1-helloworld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ex4-theenglishgentleman" type="462c0819:PsiDirectoryNode" />
+              <item name="ex5-thecalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ex5thecalculator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ex1-helloworld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ex5-thecalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ex5thecalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ex1-helloworld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ex5-thecalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ex5thecalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="operation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ex1-helloworld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ex5-thecalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ex5thecalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ex1-helloworld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ex5-thecalculator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ex1-helloworld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ex4-theenglishgentleman" type="462c0819:PsiDirectoryNode" />
+              <item name="ex5-thecalculator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ex1-helloworld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ex4-theenglishgentleman" type="462c0819:PsiDirectoryNode" />
+              <item name="ex5-thecalculator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ex4theenglishgentleman" type="462c0819:PsiDirectoryNode" />
+              <item name="ex5thecalculator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ex1-helloworld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ex5-thecalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ex5thecalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ex1-helloworld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ex5-thecalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ex5thecalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="operation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -209,7 +328,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551186855061" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551263300591" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../bew2/ex5-thecalculator" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -219,10 +338,17 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="at.nacs.ex5thecalculator" />
+      <recent name="at.nacs.ex5thecalculator.controller.operation" />
+      <recent name="at.nacs.ex5thecalculator.controller" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="at.nacs.ex5thecalculator.controller.operation" />
       <recent name="at.nacs.ex2amazinghelloworld" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="at.nacs.ex5thecalculator.controller" />
       <recent name="at.nacs.ex4theenglishgentleman" />
       <recent name="at.nacs.ex3thecursedcoin" />
       <recent name="at.nacs.ex2amazinghelloworld" />
@@ -240,77 +366,77 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EnglishGentlemanTest">
-    <configuration name="AmazingHelloWorldTest.say" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ex2-amazinghelloworld" />
+  <component name="RunManager" selected="JUnit.MultiplicationTest">
+    <configuration name="ExpressionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ex5-thecalculator" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="at.nacs.ex2amazinghelloworld.*" />
+          <option name="PATTERN" value="at.nacs.ex5thecalculator.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="at.nacs.ex2amazinghelloworld" />
-      <option name="MAIN_CLASS_NAME" value="at.nacs.ex2amazinghelloworld.AmazingHelloWorldTest" />
-      <option name="METHOD_NAME" value="say" />
+      <option name="PACKAGE_NAME" value="at.nacs.ex5thecalculator.controller" />
+      <option name="MAIN_CLASS_NAME" value="at.nacs.ex5thecalculator.controller.ExpressionsTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExpressionsTest.fromSucceeds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ex5-thecalculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.nacs.ex5thecalculator.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.nacs.ex5thecalculator.controller" />
+      <option name="MAIN_CLASS_NAME" value="at.nacs.ex5thecalculator.controller.ExpressionsTest" />
+      <option name="METHOD_NAME" value="fromSucceeds" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CigarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ex4-theenglishgentleman" />
+    <configuration name="MultiplicationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ex5-thecalculator" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="at.nacs.ex4theenglishgentleman.*" />
+          <option name="PATTERN" value="at.nacs.ex5thecalculator.controller.operation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="at.nacs.ex4theenglishgentleman" />
-      <option name="MAIN_CLASS_NAME" value="at.nacs.ex4theenglishgentleman.CigarTest" />
+      <option name="PACKAGE_NAME" value="at.nacs.ex5thecalculator.controller.operation" />
+      <option name="MAIN_CLASS_NAME" value="at.nacs.ex5thecalculator.controller.operation.MultiplicationTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnglishGentlemanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ex4-theenglishgentleman" />
+    <configuration name="SubtractionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ex5-thecalculator" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="at.nacs.ex4theenglishgentleman.*" />
+          <option name="PATTERN" value="at.nacs.ex5thecalculator.controller.operation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="at.nacs.ex4theenglishgentleman" />
-      <option name="MAIN_CLASS_NAME" value="at.nacs.ex4theenglishgentleman.EnglishGentlemanTest" />
+      <option name="PACKAGE_NAME" value="at.nacs.ex5thecalculator.controller.operation" />
+      <option name="MAIN_CLASS_NAME" value="at.nacs.ex5thecalculator.controller.operation.SubtractionTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorldTest.getMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ex1-helloworld" />
+    <configuration name="SubtractionTest.matches" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ex5-thecalculator" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="at.nacs.helloworld.*" />
+          <option name="PATTERN" value="at.nacs.ex5thecalculator.controller.operation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="at.nacs.helloworld" />
-      <option name="MAIN_CLASS_NAME" value="at.nacs.helloworld.HelloWorldTest" />
-      <option name="METHOD_NAME" value="getMessage" />
+      <option name="PACKAGE_NAME" value="at.nacs.ex5thecalculator.controller.operation" />
+      <option name="MAIN_CLASS_NAME" value="at.nacs.ex5thecalculator.controller.operation.SubtractionTest" />
+      <option name="METHOD_NAME" value="matches(boolean,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JackSparrowTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ex3-thecursedcoin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="at.nacs.ex3thecursedcoin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="at.nacs.ex3thecursedcoin" />
-      <option name="MAIN_CLASS_NAME" value="at.nacs.ex3thecursedcoin.JackSparrowTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -336,6 +462,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ex5ThecalculatorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ex5-thecalculator" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="at.nacs.ex5thecalculator.controller.Ex5ThecalculatorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelloworldApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ex1-helloworld" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="at.nacs.helloworld.HelloworldApplication" />
@@ -345,22 +478,23 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.HelloworldApplication" />
-      <item itemvalue="JUnit.HelloWorldTest.getMessage" />
       <item itemvalue="Spring Boot.Ex2AmazinghelloworldApplication" />
-      <item itemvalue="JUnit.AmazingHelloWorldTest.say" />
       <item itemvalue="Spring Boot.Ex3ThecursedcoinApplication" />
-      <item itemvalue="JUnit.JackSparrowTest" />
       <item itemvalue="Spring Boot.Ex4TheenglishgentlemanApplication" />
-      <item itemvalue="JUnit.CigarTest" />
-      <item itemvalue="JUnit.EnglishGentlemanTest" />
+      <item itemvalue="Spring Boot.Ex5ThecalculatorApplication" />
+      <item itemvalue="JUnit.ExpressionsTest" />
+      <item itemvalue="JUnit.ExpressionsTest.fromSucceeds" />
+      <item itemvalue="JUnit.SubtractionTest" />
+      <item itemvalue="JUnit.SubtractionTest.matches" />
+      <item itemvalue="JUnit.MultiplicationTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EnglishGentlemanTest" />
-        <item itemvalue="JUnit.CigarTest" />
-        <item itemvalue="JUnit.JackSparrowTest" />
-        <item itemvalue="JUnit.AmazingHelloWorldTest.say" />
-        <item itemvalue="JUnit.HelloWorldTest.getMessage" />
+        <item itemvalue="JUnit.MultiplicationTest" />
+        <item itemvalue="JUnit.SubtractionTest.matches" />
+        <item itemvalue="JUnit.SubtractionTest" />
+        <item itemvalue="JUnit.ExpressionsTest.fromSucceeds" />
+        <item itemvalue="JUnit.ExpressionsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -374,32 +508,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551093381320</updated>
-      <workItem from="1551093385557" duration="18844000" />
+      <workItem from="1551093385557" duration="29984000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HelloWorldTest_getMessage - 2019.02.25 at 13h 58m 52s.xml">
-      <configuration name="HelloWorldTest.getMessage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AmazingHelloWorldTest_say - 2019.02.25 at 16h 22m 06s.xml">
-      <configuration name="AmazingHelloWorldTest.say" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AmazingHelloWorldTest_say - 2019.02.25 at 16h 23m 43s.xml">
-      <configuration name="AmazingHelloWorldTest.say" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AmazingHelloWorldTest_say - 2019.02.25 at 16h 24m 23s.xml">
-      <configuration name="AmazingHelloWorldTest.say" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JackSparrowTest - 2019.02.25 at 16h 47m 20s.xml">
-      <configuration name="JackSparrowTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JackSparrowTest - 2019.02.25 at 16h 48m 22s.xml">
-      <configuration name="JackSparrowTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CigarTest - 2019.02.26 at 13h 39m 45s.xml">
-      <configuration name="CigarTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EnglishGentlemanTest - 2019.02.26 at 14h 05m 00s.xml">
       <configuration name="EnglishGentlemanTest" configurationId="JUnit" />
     </history-entry>
@@ -409,23 +522,45 @@
     <history-entry file="EnglishGentlemanTest - 2019.02.26 at 14h 14m 22s.xml">
       <configuration name="EnglishGentlemanTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ExpressionsTest - 2019.02.26 at 16h 43m 31s.xml">
+      <configuration name="ExpressionsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExpressionsTest_fromSucceeds - 2019.02.26 at 16h 51m 35s.xml">
+      <configuration name="ExpressionsTest.fromSucceeds" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExpressionsTest_fromSucceeds - 2019.02.26 at 16h 52m 47s.xml">
+      <configuration name="ExpressionsTest.fromSucceeds" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExpressionsTest_fromSucceeds - 2019.02.26 at 17h 03m 07s.xml">
+      <configuration name="ExpressionsTest.fromSucceeds" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExpressionsTest_fromSucceeds - 2019.02.26 at 17h 04m 27s.xml">
+      <configuration name="ExpressionsTest.fromSucceeds" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SubtractionTest - 2019.02.27 at 11h 27m 05s.xml">
+      <configuration name="SubtractionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SubtractionTest_matches - 2019.02.27 at 11h 28m 27s.xml">
+      <configuration name="SubtractionTest.matches" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18844000" />
+    <option name="totallyTimeSpent" value="29984000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="27" width="1233" height="773" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24936816" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24936816" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3294509" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3290735" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
@@ -446,6 +581,37 @@
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24936816" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3290735" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.7236422" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -552,13 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/CigarWasNotLitException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/Cigar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="65">
@@ -601,22 +760,189 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/EnglishGentleman.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="e#783#784#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/test/java/at/nacs/ex4theenglishgentleman/EnglishGentlemanTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
           <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/EnglishGentleman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="791">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bew2/ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/controller/operation/Multiplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <folding>
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bew2/ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/controller/operation/Subtraction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <folding>
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-expression/5.1.5.RELEASE/spring-expression-5.1.5.RELEASE-sources.jar!/org/springframework/expression/Expression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/lang/IllegalArgumentException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bew2/ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/CigarWasNotLitException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bew2/ex5-thecalculator/src/test/java/at/nacs/ex5thecalculator/controller/operation/DivisionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-89">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bew2/ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/controller/operation/Division.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bew2/ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/controller/IllegalArgumentException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bew2/ex5-thecalculator/src/test/java/at/nacs/ex5thecalculator/controller/ExpressionsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bew2/ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/controller/Expressions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bew2/ex5-thecalculator/src/test/java/at/nacs/ex5thecalculator/controller/CalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bew2/ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/controller/operation/Operation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bew2/ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/model/Expression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bew2/ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/controller/operation/Addition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+          <folding>
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bew2/ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/controller/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bew2/ex5-thecalculator/src/test/java/at/nacs/ex5thecalculator/controller/operation/AdditionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bew2/ex5-thecalculator/src/test/java/at/nacs/ex5thecalculator/controller/operation/SubtractionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bew2/ex5-thecalculator/src/test/java/at/nacs/ex5thecalculator/controller/operation/MultiplicationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

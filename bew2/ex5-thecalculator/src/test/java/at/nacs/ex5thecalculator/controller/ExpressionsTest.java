@@ -7,6 +7,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 @SpringBootTest
@@ -16,7 +17,7 @@ class ExpressionsTest {
     Expressions expressions;
 
     @Test
-    void fromSucceeds() {
+    void fromSucceeds() throws IllegalArgumentException {
         String input = "1.62 @ 3.14";
 
         Expression expression = expressions.from(input);
