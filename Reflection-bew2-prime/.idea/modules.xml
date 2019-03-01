@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Reflection-bew2-prime.iml" filepath="$PROJECT_DIR$/Reflection-bew2-prime.iml" />
+      <module fileurl="file://$USER_HOME$/i4-backend/i4-backend.iml" filepath="$USER_HOME$/i4-backend/i4-backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../i4-programming/i4-programming.iml" filepath="$PROJECT_DIR$/../../../i4-programming/i4-programming.iml" />
     </modules>
   </component>
 </project>
