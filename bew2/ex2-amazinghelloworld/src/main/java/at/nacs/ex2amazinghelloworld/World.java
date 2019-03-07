@@ -4,7 +4,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class World {
-    public String getWorld(){
+    public String getWorld() {
         return " World";
     }
 }

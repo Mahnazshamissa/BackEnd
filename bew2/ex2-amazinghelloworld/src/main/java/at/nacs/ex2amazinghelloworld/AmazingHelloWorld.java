@@ -14,7 +14,7 @@ public class AmazingHelloWorld {
     }
 
     public String say() {
-        return hello.getHello()+world.getWorld();
+        return hello.getHello() + world.getWorld();
 
     }
 }

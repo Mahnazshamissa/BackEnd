@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="bew2" />
         <module name="ex1-helloworld" />
         <module name="ex2-amazinghelloworld" />
         <module name="ex3-thecursedcoin" />
@@ -14,6 +15,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="bew2" target="11" />
       <module name="ex1-helloworld" target="11" />
       <module name="ex2-amazinghelloworld" target="11" />
       <module name="ex3-thecursedcoin" target="11" />

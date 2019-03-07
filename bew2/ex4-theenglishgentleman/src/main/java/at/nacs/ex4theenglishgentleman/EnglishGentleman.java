@@ -24,7 +24,7 @@ public class EnglishGentleman {
         // remember that he smoked a cigar
         lighter.light(cigar);
         cigar.smoke();
-        smoked=true;
+        smoked = true;
 
     }
 
@@ -34,7 +34,7 @@ public class EnglishGentleman {
         // remember that he read a newspaper
 
         monocle.read(newspaper);
-        read=true;
+        read = true;
 
     }
 

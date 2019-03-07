@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 public class LegendaryCompass {
     private final CursedCoin cursedCoin;
 
-    public String findCursedCoin(){
+    public String findCursedCoin() {
         return cursedCoin.getClass().getSimpleName();
     }
 }

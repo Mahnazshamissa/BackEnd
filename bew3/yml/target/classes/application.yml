@@ -1,0 +1,23 @@
+word:
+  name: fantastic
+number:
+  amount: 369
+week:
+  days: Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday
+liberary:
+  book:
+    HarryPotter: 3
+    TheFoundation: 2
+    TheLordOfTheRings: 4
+building:
+  sauna:
+    availableSeats: 4
+    temperature: 87.9
+dancer:
+  ballerinas:
+  - name: shamissa
+    performanceQuality: 1
+  - name: farnaz
+    performanceQuality: 2
+  - name: mahnaz
+    performanceQuality: 3

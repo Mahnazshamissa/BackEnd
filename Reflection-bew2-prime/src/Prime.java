@@ -14,6 +14,7 @@ public class Prime {
                 .collect(toList());
 
     }
+
     private boolean hasNoFactors(int number) {
         return IntStream.range(2, number)
                 .noneMatch(e -> number % e == 0);

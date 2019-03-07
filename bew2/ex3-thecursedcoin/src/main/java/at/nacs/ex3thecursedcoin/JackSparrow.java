@@ -9,6 +9,6 @@ public class JackSparrow {
     private final LegendaryCompass legendaryCompass;
 
     public String findCoin() {
-        return "I found the " + legendaryCompass.findCursedCoin()+ "!";
+        return "I found the " + legendaryCompass.findCursedCoin() + "!";
     }
 }

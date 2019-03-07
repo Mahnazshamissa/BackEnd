@@ -19,7 +19,7 @@ public class Assistant {
 
     public List<Fruit> translateIntoListOfFruits(List<String> fruitsAsString) {
         return countFruits(fruitsAsString).entrySet().stream()
-                .map(e->FruitReader.toFruits(e)).sorted().collect(Collectors.toList());
+                .map(e -> FruitReader.toFruits(e)).sorted().collect(Collectors.toList());
     }
 
     public Map<String, Long> countFruits(List<String> fruits) {

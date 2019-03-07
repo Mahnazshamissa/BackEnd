@@ -4,7 +4,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Hello {
-    public String getHello(){
+    public String getHello() {
         return "Hello";
     }
 }

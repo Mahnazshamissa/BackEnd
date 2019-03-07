@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: at.nacs.bew3.Bew3ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.488 s <<< FAILURE! - in at.nacs.bew3.Bew3ApplicationTests
+contextLoads(at.nacs.bew3.Bew3ApplicationTests)  Time elapsed: 0.009 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'bookShop': Could not bind properties to 'BookShop' : prefix=bookShop, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.source.InvalidConfigurationPropertyNameException: Configuration property name 'bookShop' is not valid
+Caused by: org.springframework.boot.context.properties.source.InvalidConfigurationPropertyNameException: Configuration property name 'bookShop' is not valid
+

@@ -15,7 +15,7 @@ import static java.util.stream.Collectors.groupingBy;
 public class BeanProcessor {
 
     public void gatherStatistics(Integer tries, Integer numberBeans) {
-        IntStream.range(0,tries)
+        IntStream.range(0, tries)
                 .forEach(e -> runSimulation(numberBeans));
     }
 
@@ -46,7 +46,7 @@ public class BeanProcessor {
 
     private String getColourInfo(int total, Map.Entry<String, Long> e) {
         Long value = e.getValue();
-        return value +  "," + getPercentage(total, value);
+        return value + "," + getPercentage(total, value);
     }
 
     private String getPercentage(int totalBeans, Long number) {

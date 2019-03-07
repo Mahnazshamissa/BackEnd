@@ -12,31 +12,33 @@ import java.util.stream.Stream;
 import static org.junit.jupiter.api.Assertions.*;
 
 class AssistantTest {
-    private List<Fruit> getExpectedFruits(){
-        return Stream.of(Fruit.builder().name("Apple").amount((long)1).build(),
-                Fruit.builder().name("Orange").amount((long)4).build(),
-                Fruit.builder().name("Banana").amount((long)1).build())
+    private List<Fruit> getExpectedFruits() {
+        return Stream.of(Fruit.builder().name("Apple").amount((long) 1).build(),
+                Fruit.builder().name("Orange").amount((long) 4).build(),
+                Fruit.builder().name("Banana").amount((long) 1).build())
                 .collect(Collectors.toList());
     }
 
-    private List<String> getFruits(){
-        return Stream.of("Orange","Apple","Orange","Banana","Orange","Orange")
+    private List<String> getFruits() {
+        return Stream.of("Orange", "Apple", "Orange", "Banana", "Orange", "Orange")
                 .collect(Collectors.toList());
     }
 
     private Map<String, Long> getExpectedFruitsAsMap() {
         Map<String, Long> map = new HashMap<>();
-        map.put("Orange", (long)4);
-        map.put("Apple", (long)1);
-        map.put("Banana", (long)1);
+        map.put("Orange", (long) 4);
+        map.put("Apple", (long) 1);
+        map.put("Banana", (long) 1);
         return map;
     }
+
     @Test
     void testtranslateIntoListOfFruits() {
         List<Fruit> actualFruits = Assistant.translateIntoListOfFruits(getFruits());
         List<Fruit> expectedFruits = getExpectedFruits();
-        assertEquals(expectedFruits,actualFruits);
+        assertEquals(expectedFruits, actualFruits);
     }
+
     @Test
     void testCountFruits() {
         Map<String, Long> actual = Assistant.countFruits(getFruits());

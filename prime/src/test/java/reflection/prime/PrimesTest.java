@@ -19,8 +19,8 @@ public class PrimesTest {
     @Test
     public void getPrimes() {
         List<Integer> actual = primes.getPrimes(4);
-        List<Integer> expected = Arrays.asList(2,3,5,7);
+        List<Integer> expected = Arrays.asList(2, 3, 5, 7);
 
-        assertEquals(expected,actual);
+        assertEquals(expected, actual);
     }
 }

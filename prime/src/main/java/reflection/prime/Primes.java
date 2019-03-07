@@ -18,7 +18,7 @@ public class Primes {
             .forEach(primes::add);*/
 
     public List<Integer> getPrimes(int max) {
-        return IntStream.iterate(1, i -> i+1)
+        return IntStream.iterate(1, i -> i + 1)
                 .boxed()
                 .filter(e -> isPrime(e))
                 .limit(max)

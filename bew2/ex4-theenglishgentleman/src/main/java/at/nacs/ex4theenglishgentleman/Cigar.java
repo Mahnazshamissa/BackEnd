@@ -12,7 +12,7 @@ public class Cigar {
     private boolean lit;
 
     public void smoke() throws CigarWasNotLitException {
-        if (! lit){
+        if (!lit) {
             throw new CigarWasNotLitException();
         }
     }

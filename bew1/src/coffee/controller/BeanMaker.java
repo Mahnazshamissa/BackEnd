@@ -10,10 +10,10 @@ public class BeanMaker {
 
     private List<String> colours = new ArrayList<>(Arrays.asList("black", "white"));
 
-    public List<Bean> makeBeans(Integer max){
+    public List<Bean> makeBeans(Integer max) {
         System.out.println("making beans");
         // could be changed to IntStream.generate(()->0).limit(max)
-        return IntStream.range(0,max)
+        return IntStream.range(0, max)
                 .mapToObj(e -> getBean())
                 .peek(System.out::println)
                 .collect(Collectors.toList());

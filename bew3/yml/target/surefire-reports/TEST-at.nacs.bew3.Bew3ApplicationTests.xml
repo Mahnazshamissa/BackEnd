@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="at.nacs.bew3.Bew3ApplicationTests" time="2.488" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/fatemeh/IdeaProjects/GitHub/BackEnd/bew3/target/test-classes:/home/fatemeh/IdeaProjects/GitHub/BackEnd/bew3/target/classes:/home/fatemeh/.m2/repository/org/springframework/boot/spring-boot-starter/2.1.3.RELEASE/spring-boot-starter-2.1.3.RELEASE.jar:/home/fatemeh/.m2/repository/org/springframework/boot/spring-boot/2.1.3.RELEASE/spring-boot-2.1.3.RELEASE.jar:/home/fatemeh/.m2/repository/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE.jar:/home/fatemeh/.m2/repository/org/springframework/spring-aop/5.1.5.RELEASE/spring-aop-5.1.5.RELEASE.jar:/home/fatemeh/.m2/repository/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE.jar:/home/fatemeh/.m2/repository/org/springframework/spring-expression/5.1.5.RELEASE/spring-expression-5.1.5.RELEASE.jar:/home/fatemeh/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.3.RELEASE/spring-boot-autoconfigure-2.1.3.RELEASE.jar:/home/fatemeh/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.1.3.RELEASE/spring-boot-starter-logging-2.1.3.RELEASE.jar:/home/fatemeh/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/home/fatemeh/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/home/fatemeh/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.11.2/log4j-to-slf4j-2.11.2.jar:/home/fatemeh/.m2/repository/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar:/home/fatemeh/.m2/repository/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.jar:/home/fatemeh/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/home/fatemeh/.m2/repository/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar:/home/fatemeh/.m2/repository/org/springframework/spring-jcl/5.1.5.RELEASE/spring-jcl-5.1.5.RELEASE.jar:/home/fatemeh/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar:/home/fatemeh/.m2/repository/org/projectlombok/lombok/1.18.6/lombok-1.18.6.jar:/home/fatemeh/.m2/repository/org/springframework/boot/spring-boot-starter-test/2.1.3.RELEASE/spring-boot-starter-test-2.1.3.RELEASE.jar:/home/fatemeh/.m2/repository/org/springframework/boot/spring-boot-test/2.1.3.RELEASE/spring-boot-test-2.1.3.RELEASE.jar:/home/fatemeh/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/2.1.3.RELEASE/spring-boot-test-autoconfigure-2.1.3.RELEASE.jar:/home/fatemeh/.m2/repository/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar:/home/fatemeh/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar:/home/fatemeh/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/home/fatemeh/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar:/home/fatemeh/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/fatemeh/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/fatemeh/.m2/repository/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1.jar:/home/fatemeh/.m2/repository/org/mockito/mockito-core/2.23.4/mockito-core-2.23.4.jar:/home/fatemeh/.m2/repository/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar:/home/fatemeh/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar:/home/fatemeh/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/fatemeh/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/fatemeh/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/home/fatemeh/.m2/repository/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0.jar:/home/fatemeh/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/home/fatemeh/.m2/repository/org/springframework/spring-test/5.1.5.RELEASE/spring-test-5.1.5.RELEASE.jar:/home/fatemeh/.m2/repository/org/xmlunit/xmlunit-core/2.6.2/xmlunit-core-2.6.2.jar:/home/fatemeh/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar:/home/fatemeh/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/home/fatemeh/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.3.2/junit-jupiter-api-5.3.2.jar:/home/fatemeh/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/fatemeh/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/home/fatemeh/.m2/repository/org/junit/platform/junit-platform-commons/1.3.2/junit-platform-commons-1.3.2.jar:/home/fatemeh/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.3.2/junit-jupiter-params-5.3.2.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/fatemeh/IdeaProjects/GitHub/BackEnd/bew3/target/surefire/surefirebooter17220468024638222810.jar /home/fatemeh/IdeaProjects/GitHub/BackEnd/bew3/target/surefire 2019-03-06T11-38-55_630-jvmRun1 surefire13696851416434061786tmp surefire_016669447692574102522tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/fatemeh/IdeaProjects/GitHub/BackEnd/bew3/target/test-classes:/home/fatemeh/IdeaProjects/GitHub/BackEnd/bew3/target/classes:/home/fatemeh/.m2/repository/org/springframework/boot/spring-boot-starter/2.1.3.RELEASE/spring-boot-starter-2.1.3.RELEASE.jar:/home/fatemeh/.m2/repository/org/springframework/boot/spring-boot/2.1.3.RELEASE/spring-boot-2.1.3.RELEASE.jar:/home/fatemeh/.m2/repository/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE.jar:/home/fatemeh/.m2/repository/org/springframework/spring-aop/5.1.5.RELEASE/spring-aop-5.1.5.RELEASE.jar:/home/fatemeh/.m2/repository/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE.jar:/home/fatemeh/.m2/repository/org/springframework/spring-expression/5.1.5.RELEASE/spring-expression-5.1.5.RELEASE.jar:/home/fatemeh/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.3.RELEASE/spring-boot-autoconfigure-2.1.3.RELEASE.jar:/home/fatemeh/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.1.3.RELEASE/spring-boot-starter-logging-2.1.3.RELEASE.jar:/home/fatemeh/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/home/fatemeh/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/home/fatemeh/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.11.2/log4j-to-slf4j-2.11.2.jar:/home/fatemeh/.m2/repository/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar:/home/fatemeh/.m2/repository/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.jar:/home/fatemeh/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/home/fatemeh/.m2/repository/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar:/home/fatemeh/.m2/repository/org/springframework/spring-jcl/5.1.5.RELEASE/spring-jcl-5.1.5.RELEASE.jar:/home/fatemeh/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar:/home/fatemeh/.m2/repository/org/projectlombok/lombok/1.18.6/lombok-1.18.6.jar:/home/fatemeh/.m2/repository/org/springframework/boot/spring-boot-starter-test/2.1.3.RELEASE/spring-boot-starter-test-2.1.3.RELEASE.jar:/home/fatemeh/.m2/repository/org/springframework/boot/spring-boot-test/2.1.3.RELEASE/spring-boot-test-2.1.3.RELEASE.jar:/home/fatemeh/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/2.1.3.RELEASE/spring-boot-test-autoconfigure-2.1.3.RELEASE.jar:/home/fatemeh/.m2/repository/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar:/home/fatemeh/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar:/home/fatemeh/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/home/fatemeh/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar:/home/fatemeh/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/fatemeh/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/fatemeh/.m2/repository/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1.jar:/home/fatemeh/.m2/repository/org/mockito/mockito-core/2.23.4/mockito-core-2.23.4.jar:/home/fatemeh/.m2/repository/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar:/home/fatemeh/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar:/home/fatemeh/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/fatemeh/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/fatemeh/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/home/fatemeh/.m2/repository/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0.jar:/home/fatemeh/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/home/fatemeh/.m2/repository/org/springframework/spring-test/5.1.5.RELEASE/spring-test-5.1.5.RELEASE.jar:/home/fatemeh/.m2/repository/org/xmlunit/xmlunit-core/2.6.2/xmlunit-core-2.6.2.jar:/home/fatemeh/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar:/home/fatemeh/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/home/fatemeh/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.3.2/junit-jupiter-api-5.3.2.jar:/home/fatemeh/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/fatemeh/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/home/fatemeh/.m2/repository/org/junit/platform/junit-platform-commons/1.3.2/junit-platform-commons-1.3.2.jar:/home/fatemeh/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.3.2/junit-jupiter-params-5.3.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/fatemeh"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2018-10-16"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/fatemeh/IdeaProjects/GitHub/BackEnd/bew3"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/fatemeh/IdeaProjects/GitHub/BackEnd/bew3/target/surefire/surefirebooter17220468024638222810.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.1+13-Ubuntu-3ubuntu3.18.10.1"/>
+    <property name="user.name" value="fatemeh"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="4.18.0-15-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/fatemeh/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="idea.version" value="2018.2.5"/>
+    <property name="java.version" value="11.0.1"/>
+    <property name="user.dir" value="/home/fatemeh/IdeaProjects/GitHub/BackEnd/bew3"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vm.version" value="11.0.1+13-Ubuntu-3ubuntu3.18.10.1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="contextLoads" classname="at.nacs.bew3.Bew3ApplicationTests" time="0.009">
+    <error message="Failed to load ApplicationContext" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'bookShop': Could not bind properties to 'BookShop' : prefix=bookShop, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.source.InvalidConfigurationPropertyNameException: Configuration property name 'bookShop' is not valid
+Caused by: org.springframework.boot.context.properties.source.InvalidConfigurationPropertyNameException: Configuration property name 'bookShop' is not valid
+</error>
+    <system-out><![CDATA[11:38:57.353 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class at.nacs.bew3.Bew3ApplicationTests]
+11:38:57.362 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+11:38:57.381 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+11:38:57.413 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [at.nacs.bew3.Bew3ApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+11:38:57.438 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [at.nacs.bew3.Bew3ApplicationTests], using SpringBootContextLoader
+11:38:57.446 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [at.nacs.bew3.Bew3ApplicationTests]: class path resource [at/nacs/bew3/Bew3ApplicationTests-context.xml] does not exist
+11:38:57.448 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [at.nacs.bew3.Bew3ApplicationTests]: class path resource [at/nacs/bew3/Bew3ApplicationTestsContext.groovy] does not exist
+11:38:57.448 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [at.nacs.bew3.Bew3ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+11:38:57.450 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [at.nacs.bew3.Bew3ApplicationTests]: Bew3ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:38:57.529 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [at.nacs.bew3.Bew3ApplicationTests]
+11:38:57.694 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/home/fatemeh/IdeaProjects/GitHub/BackEnd/bew3/target/classes/at/nacs/bew3/Bew3Application.class]
+11:38:57.696 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration at.nacs.bew3.Bew3Application for test class at.nacs.bew3.Bew3ApplicationTests
+11:38:57.830 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [at.nacs.bew3.Bew3ApplicationTests]: using defaults.
+11:38:57.831 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+11:38:57.841 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [javax/servlet/ServletContext]
+11:38:57.843 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+11:38:57.844 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+11:38:57.844 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@32b260fa, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@581ac8a8, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6d4e5011, org.springframework.test.context.support.DirtiesContextTestExecutionListener@57d7f8ca, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@76c3e77a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@78123e82, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@67c33749, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@fba92d3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@662b4c69]
+11:38:57.846 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [at.nacs.bew3.Bew3ApplicationTests]
+11:38:57.847 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [at.nacs.bew3.Bew3ApplicationTests]
+11:38:57.849 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [at.nacs.bew3.Bew3ApplicationTests]
+11:38:57.849 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [at.nacs.bew3.Bew3ApplicationTests]
+11:38:57.850 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [at.nacs.bew3.Bew3ApplicationTests]
+11:38:57.850 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [at.nacs.bew3.Bew3ApplicationTests]
+11:38:57.853 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@1e04fa0a testClass = Bew3ApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1af2d44a testClass = Bew3ApplicationTests, locations = '{}', classes = '{class at.nacs.bew3.Bew3Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@78b1cc93, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@143640d5, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@1a0dcaa, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@7995092a], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+11:38:57.854 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [at.nacs.bew3.Bew3ApplicationTests]
+11:38:57.855 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [at.nacs.bew3.Bew3ApplicationTests]
+11:38:57.859 [main] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@1e04fa0a testClass = Bew3ApplicationTests, testInstance = at.nacs.bew3.Bew3ApplicationTests@c88a337, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1af2d44a testClass = Bew3ApplicationTests, locations = '{}', classes = '{class at.nacs.bew3.Bew3Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@78b1cc93, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@143640d5, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@1a0dcaa, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@7995092a], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]]].
+11:38:57.884 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.3.RELEASE)
+
+2019-03-06 11:38:58.338  INFO 4866 --- [           main] at.nacs.bew3.Bew3ApplicationTests        : Starting Bew3ApplicationTests on fatemeh-MacBookPro with PID 4866 (started by fatemeh in /home/fatemeh/IdeaProjects/GitHub/BackEnd/bew3)
+2019-03-06 11:38:58.341  INFO 4866 --- [           main] at.nacs.bew3.Bew3ApplicationTests        : No active profile set, falling back to default profiles: default
+2019-03-06 11:38:59.075  WARN 4866 --- [           main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'bookShop': Could not bind properties to 'BookShop' : prefix=bookShop, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.source.InvalidConfigurationPropertyNameException: Configuration property name 'bookShop' is not valid
+2019-03-06 11:38:59.087  INFO 4866 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-03-06 11:38:59.095 ERROR 4866 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Configuration property name 'bookShop' is not valid:
+
+    Invalid characters: 'S'
+    Bean: bookShop
+    Reason: Canonical names should be kebab-case ('-' separated), lowercase alpha-numeric characters and must start with a letter
+
+Action:
+
+Modify 'bookShop' so that it conforms to the canonical names requirements.
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.3.RELEASE)
+
+2019-03-06 11:38:59.148  INFO 4866 --- [           main] at.nacs.bew3.Bew3ApplicationTests        : Starting Bew3ApplicationTests on fatemeh-MacBookPro with PID 4866 (started by fatemeh in /home/fatemeh/IdeaProjects/GitHub/BackEnd/bew3)
+2019-03-06 11:38:59.149  INFO 4866 --- [           main] at.nacs.bew3.Bew3ApplicationTests        : No active profile set, falling back to default profiles: default
+2019-03-06 11:38:59.430  WARN 4866 --- [           main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'bookShop': Could not bind properties to 'BookShop' : prefix=bookShop, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.source.InvalidConfigurationPropertyNameException: Configuration property name 'bookShop' is not valid
+2019-03-06 11:38:59.435  INFO 4866 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-03-06 11:38:59.437 ERROR 4866 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Configuration property name 'bookShop' is not valid:
+
+    Invalid characters: 'S'
+    Bean: bookShop
+    Reason: Canonical names should be kebab-case ('-' separated), lowercase alpha-numeric characters and must start with a letter
+
+Action:
+
+Modify 'bookShop' so that it conforms to the canonical names requirements.
+
+2019-03-06 11:38:59.445 ERROR 4866 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6d4e5011] to prepare test instance [at.nacs.bew3.Bew3ApplicationTests@c88a337]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125) ~[spring-test-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108) ~[spring-test-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118) ~[spring-test-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:44) ~[spring-boot-test-autoconfigure-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246) ~[spring-test-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) ~[spring-test-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) ~[spring-test-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) ~[spring-test-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) ~[spring-test-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) ~[spring-test-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) ~[junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) ~[junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) ~[spring-test-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365) ~[surefire-junit4-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273) ~[surefire-junit4-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238) ~[surefire-junit4-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159) ~[surefire-junit4-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) ~[surefire-booter-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) ~[surefire-booter-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) ~[surefire-booter-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) ~[surefire-booter-2.22.1.jar:2.22.1]
+Caused by: org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'bookShop': Could not bind properties to 'BookShop' : prefix=bookShop, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.source.InvalidConfigurationPropertyNameException: Configuration property name 'bookShop' is not valid
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.bind(ConfigurationPropertiesBindingPostProcessor.java:110) ~[spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:93) ~[spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:414) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1754) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) ~[spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127) ~[spring-boot-test-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) ~[spring-test-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	... 28 common frames omitted
+Caused by: org.springframework.boot.context.properties.source.InvalidConfigurationPropertyNameException: Configuration property name 'bookShop' is not valid
+	at org.springframework.boot.context.properties.source.ConfigurationPropertyName.of(ConfigurationPropertyName.java:444) ~[spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.context.properties.source.ConfigurationPropertyName.of(ConfigurationPropertyName.java:411) ~[spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:190) ~[spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBinder.bind(ConfigurationPropertiesBinder.java:83) ~[spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.bind(ConfigurationPropertiesBindingPostProcessor.java:107) ~[spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	... 46 common frames omitted
+
+]]></system-out>
+  </testcase>
+</testsuite>

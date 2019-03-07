@@ -26,13 +26,13 @@ public class BeanStatisticsGatherer {
         String ratio = getRatio(entries);
         String lastBeanRatio = getLastBeanRatio(entries);
         return Arrays.asList(
-                            numTries,
-                            numWhite,
-                            numBlack,
-                            timesLastWhite,
-                            timesLastBlack,
-                            ratio,
-                            lastBeanRatio);
+                numTries,
+                numWhite,
+                numBlack,
+                timesLastWhite,
+                timesLastBlack,
+                ratio,
+                lastBeanRatio);
     }
 
     private long getTotalWhite(List<Entry> entries) {
@@ -62,7 +62,7 @@ public class BeanStatisticsGatherer {
         double totalBeans = totalWhite + totalBlack;
         double ratioWhite = totalWhite * 100 / totalBeans;
         double ratioBlack = totalBlack * 100 / totalBeans;
-        return "Total bean ratio: " + format(ratioWhite) + " % white " + format(ratioBlack)+ "% black";
+        return "Total bean ratio: " + format(ratioWhite) + " % white " + format(ratioBlack) + "% black";
     }
 
     private String getLastBeanRatio(List<Entry> entries) {
