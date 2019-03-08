@@ -1,6 +1,7 @@
 package at.nacs.bew3.exe06;
 
 import org.hamcrest.collection.IsMapContaining;
+import org.junit.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,24 +13,24 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThat;
 
 @SpringBootTest
-class LiberaryTest {
+class LibraryTest {
 
     @Autowired
-    Liberary liberary;
+    Library library;
 
     @ParameterizedTest
     @CsvSource({
-            "Harry Potter, 3",
-            "The Foundation, 2",
-            "The Lord of the Rings, 4"
+            "HarryPotter, 3",
+            "TheFoundation, 2",
+            "TheLordOfTheRings, 4"
     })
-    void getBook(String book, Integer copies) {
+    void getIndividualBook(String title, Integer copies) {
 
-        Map<String, Integer> books = liberary.getBook();
+        Map<String, Integer> books = library.getBook();
 
-        //assertEquals([3,2,4],books);
+        //assertEquals(copies,books.get(title));
 
-        //assertThat(books, IsMapContaining.hasEntry(book, copies));
+        assertThat(books, IsMapContaining.hasEntry(title,copies));
 
 
     }
