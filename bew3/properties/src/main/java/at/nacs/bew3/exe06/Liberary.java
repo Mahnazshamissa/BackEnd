@@ -13,5 +13,5 @@ import java.util.Map;
 @Setter
 public class Liberary {
 
-    private Map<String,Integer> book;
+    private Map<String, Integer> book;
 }

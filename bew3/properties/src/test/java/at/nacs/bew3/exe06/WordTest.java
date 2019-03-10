@@ -17,6 +17,6 @@ class WordTest {
     @Test
     void getName() {
         String actualName = word.getName();
-        Assertions.assertEquals("fantastic",actualName);
+        Assertions.assertEquals("fantastic", actualName);
     }
 }

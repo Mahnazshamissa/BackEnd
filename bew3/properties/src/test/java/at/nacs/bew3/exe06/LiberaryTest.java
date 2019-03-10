@@ -19,17 +19,16 @@ class LiberaryTest {
 
     @ParameterizedTest
     @CsvSource({
-            "Harry Potter, 3",
-            "The Foundation, 2",
-            "The Lord of the Rings, 4"
+            "HarryPotter, 3",
+            "TheFoundation, 2",
+            "TheLordOfTheRings, 4"
     })
     void getBook(String book, Integer copies) {
 
         Map<String, Integer> books = liberary.getBook();
 
-        //assertEquals([3,2,4],books);
 
-        //assertThat(books, IsMapContaining.hasEntry(book, copies));
+        assertThat(books, IsMapContaining.hasEntry(book, copies));
 
 
     }

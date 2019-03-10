@@ -15,6 +15,6 @@ class SaunaLoaderTest {
     @Test
     void testTempreture() {
         Sauna sauna = saunaLoader.getSauna();
-        assertEquals(87.9,sauna.getTemperature());
+        assertEquals(87.9, sauna.getTemperature());
     }
 }

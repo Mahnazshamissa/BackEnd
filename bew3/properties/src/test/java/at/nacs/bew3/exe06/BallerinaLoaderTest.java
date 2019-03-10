@@ -19,7 +19,7 @@ class BallerinaLoaderTest {
     @Test
     void getBallerinas() {
         List<Ballerina> ballerinas = ballerinaLoader.getBallerinas();
-        assertEquals(3,ballerinas.size());
+        assertEquals(3, ballerinas.size());
     }
 
     @ParameterizedTest

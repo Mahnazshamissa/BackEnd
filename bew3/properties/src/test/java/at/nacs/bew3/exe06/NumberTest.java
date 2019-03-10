@@ -15,7 +15,7 @@ class NumberTest {
 
     @Test
     void getAmount() {
-        Integer actualNumber= number.getAmount();
-        Assertions.assertEquals(Integer.valueOf(369),actualNumber);
+        Integer actualNumber = number.getAmount();
+        Assertions.assertEquals(Integer.valueOf(369), actualNumber);
     }
 }

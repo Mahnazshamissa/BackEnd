@@ -18,7 +18,7 @@ class WeekTest {
     @Test
     void getDays() {
         List<String> days = week.getDays();
-        List<String> expected= Arrays.asList("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday");
-        assertEquals(expected,days);
+        List<String> expected = Arrays.asList("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday");
+        assertEquals(expected, days);
     }
 }
