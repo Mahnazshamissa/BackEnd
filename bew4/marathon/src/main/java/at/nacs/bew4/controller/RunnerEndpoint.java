@@ -1,4 +1,4 @@
-package at.nacs.bew4;
+package at.nacs.bew4.controller;
 
 import at.nacs.bew4.domain.Runner;
 import at.nacs.bew4.domain.RunnerRepository;

@@ -4,6 +4,8 @@ import org.springframework.stereotype.Component;
 
 import java.util.*;
 
+import static java.util.Comparator.comparing;
+
 @Component
 public class RunnerRepository {
 
@@ -19,7 +21,7 @@ public class RunnerRepository {
 
     public Optional<Runner> findFastest(){
         return runners.stream()
-                .min(Comparator.comparing(Runner::getTime));
+                .min(comparing(Runner::getTime));
     }
 
 }
