@@ -13,41 +13,41 @@ import java.util.Optional;
 @RequiredArgsConstructor
 public class Twitter {
 
-    private final TweetRepository tweetRepository;
+    private final TweetRepository repository;
 
-    public List<Tweet> findAll(){
-        return tweetRepository.findByOrderByTimestampDesc();
+    public List<Tweet> findAll() {
+        return repository.findByOrderByTimestampDesc();
     }
 
-    public List<Tweet> findOne (String user){
-        return tweetRepository.findByUserOrderByTimestampDesc(user);
+    public List<Tweet> findOne(String user) {
+        return repository.findByUserOrderByTimestampDesc(user);
     }
 
-    public Tweet save(Tweet tweet){
+    public Tweet save(Tweet tweet) {
         tweet.setTimestamp(LocalDateTime.now());
-        return tweetRepository.save(tweet);
+        return repository.save(tweet);
     }
 
-    public void like(String id){
-        Optional<Tweet> byId = tweetRepository.findById(id);
-        if (byId.isEmpty()){
+    public void like(String id) {
+        Optional<Tweet> byId = repository.findById(id);
+        if (byId.isEmpty()) {
             return;
         }
         Tweet tweet = byId.get();
         int likes = tweet.getLikes();
-        tweet.setLikes(likes+1);
-        tweetRepository.save(tweet);
+        tweet.setLikes(likes + 1);
+        repository.save(tweet);
 
     }
 
     public void comment(String id, String comment) {
-        Optional<Tweet> byId = tweetRepository.findById(id);
+        Optional<Tweet> byId = repository.findById(id);
         if (byId.isEmpty()) {
             return;
         }
         Tweet tweet = byId.get();
         tweet.getComments().add(comment);
-        tweetRepository.save(tweet);
+        repository.save(tweet);
     }
 
 }
