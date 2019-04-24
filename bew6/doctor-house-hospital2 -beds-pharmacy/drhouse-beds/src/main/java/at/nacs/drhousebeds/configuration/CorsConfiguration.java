@@ -1,4 +1,4 @@
-package at.nacs.todos.configuration;
+package at.nacs.drhousebeds.configuration;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

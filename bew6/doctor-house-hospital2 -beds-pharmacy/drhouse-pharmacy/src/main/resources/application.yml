@@ -1,0 +1,17 @@
+server:
+  port: 9004
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost/drhousehospital-pharmacy
+
+apothecary:
+  medicines:
+    fever: syrup
+    highpressure: tablet
+
+accountancy:
+  server:
+    url: http://localhost:9005/patients
+

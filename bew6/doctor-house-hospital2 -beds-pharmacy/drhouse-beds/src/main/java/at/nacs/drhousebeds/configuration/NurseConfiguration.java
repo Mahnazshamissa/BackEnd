@@ -1,0 +1,23 @@
+package at.nacs.drhousebeds.configuration;
+
+import lombok.Getter;
+import lombok.Setter;
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import java.util.Map;
+
+@Configuration
+@ConfigurationProperties("nurse")
+public class NurseConfiguration {
+
+    @Setter
+    @Getter
+    private Map<String, String> treatments;
+
+    @Bean
+    public Map<String,String> treatments(){
+        return treatments;
+    }
+}

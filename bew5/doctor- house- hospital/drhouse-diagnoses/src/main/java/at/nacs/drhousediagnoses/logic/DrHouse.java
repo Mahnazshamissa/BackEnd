@@ -2,7 +2,9 @@ package at.nacs.drhousediagnoses.logic;
 
 import at.nacs.drhousediagnoses.domain.Patient;
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
 
+@Service
 @RequiredArgsConstructor
 public class DrHouse {
 

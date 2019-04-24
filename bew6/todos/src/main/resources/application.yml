@@ -4,6 +4,6 @@ server:
 spring:
   data:
     mongodb:
-      uri: ${NACS_MONGODB_URI}
+      uri: mongodb://localhost/todos
 
 

@@ -1,0 +1,16 @@
+server:
+  port: 9003
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost/drhousehospital-beds
+nurse:
+  treatments:
+    fever: pharmacy
+    heartattack : bed
+    highpressure: bed
+
+accountancy:
+  server:
+    url: http://localhost:9005/patients
