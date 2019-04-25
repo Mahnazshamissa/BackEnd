@@ -4,11 +4,11 @@ import at.nacs.drhousebeds.communication.AccountancyClient;
 import at.nacs.drhousebeds.persistence.domain.Patient;
 import at.nacs.drhousebeds.persistence.repository.PatientRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.stereotype.Service;
 
 import java.util.Map;
 
-@RestController
+@Service
 @RequiredArgsConstructor
 public class Nurse {
     private final Map<String, String> treatments;
