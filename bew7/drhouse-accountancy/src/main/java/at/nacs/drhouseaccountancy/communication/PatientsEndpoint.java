@@ -17,7 +17,7 @@ public class PatientsEndpoint {
     private final Accountant accountant;
 
     @PostMapping
-    Patient post(@RequestBody PatientDTO patientDTO) {
-        return accountant.generateAnInvoiceWithTheCosts(patientDTO);
+    void post(@RequestBody PatientDTO patientDTO) {
+         accountant.invoice(patientDTO);
     }
 }

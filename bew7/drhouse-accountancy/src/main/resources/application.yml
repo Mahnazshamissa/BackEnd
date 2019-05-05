@@ -9,3 +9,10 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+costs:
+  prices:
+    takesomerest: 130.0
+    medicine: 13.0
+    antibiotika: 30.0
+    antikoagulans: 40.0
+    painkiller: 40.0
