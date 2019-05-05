@@ -34,5 +34,15 @@ public class PersonsEndpoint {
         return manager.save(person);
     }
 
+    @PutMapping("/{id1}/friend/{id2}")
+    void friend(@PathVariable Long id1, @PathVariable Long id2) {
+        manager.friend(id1, id2);
+    }
+
+    @PutMapping("/{id1}/unfriend/{id2}")
+    void unfriend(@PathVariable Long id1, @PathVariable Long id2) {
+        manager.unfriend(id1, id2);
+    }
+
 
 }
